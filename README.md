@@ -20,7 +20,12 @@
 ```
 ---
 ```
-
+N = gets.to_i
+A = gets.chomp.split.map(&:to_i)
+B = A.clone
+flag = 1
+(0..N*10).each do |i|
+  (0...N).each do |j|
 ```
 ---
 ```
